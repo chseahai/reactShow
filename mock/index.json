@@ -1,0 +1,33 @@
+{
+	"ret" : true,
+	"data":{
+		"articles" : [{
+			"title" : "修仙觅长生，热血任逍遥，踏莲曳波涤剑骨，凭虚御风塑圣魂！",
+			"color" : "blue",
+			"isNew" : true,
+			"id" : "1"
+		},{
+			"title" : "在破败中崛起，在寂灭中复苏。沧海成尘，雷电枯竭……",
+			"color" : "red",
+			"isNew" : false,
+			"id" : "2"
+		},{
+			"title" : "算命探险点风水，惊悚侦探降鬼怪，最传统中国文化，最神秘灵异传奇！",
+			"color" : "blue",
+			"isNew" : true,
+			"id" : "3"
+		},{
+			"title" : "心潮澎湃，无限幻想，迎风挥击千层浪，少年不败热血！",
+			"color" : "pink",
+			"isNew" : false,
+			"id" : "4"
+		},{
+			"title" : "醒掌天下权，醉卧美人膝，五千年风华烟雨，是非成败转头空！",
+			"color" : "orange",
+			"isNew" : false,
+			"id" : "5"
+		}]
+	}
+	
+	
+}

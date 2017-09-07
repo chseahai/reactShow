@@ -1,0 +1,346 @@
+@import "./reset.css";
+@import '~antd/dist/antd.css';
+
+.main {
+	width: 1024px;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.header-img {
+	display: block;
+	width: 150px;
+}
+.header-menu {
+	line-height: 30px;
+}
+.content {
+	width: 1024px;
+	margin-top: 20px;
+}
+.content.ant-card-wider-padding .ant-card-body {
+	padding: 0;
+}
+.content-item {
+	line-height: 30px;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #049;
+}
+.content-item-category {
+	padding-right: 10px;
+}
+.content-item-new {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	vertical-align: top;
+}
+
+/*
+   carousel轮播图
+*/
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 200px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+.carousel-img{
+	width:100%;
+	height:200px;
+}
+
+.containView{
+	margin: 0 atuo;
+}
+
+.mainLeft h3{
+	text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+}
+.mainLeft p{
+	text-align: center;
+}
+.showTicket{
+	height:800px;
+	width:100%;
+	background: dark;
+	padding-left: 60px;
+}
+.showTicket .list-img{
+	padding: 10px;
+	list-style: none;
+    width: 220px;
+	height: auto;
+	float:left;	
+	opacity: 0.6;
+}
+.showTicket .list-img:hover{
+	box-shadow: 10px 10px 10px  #333;
+	opacity: 0.9;
+}
+.showTicket .list-img img{
+	width: 100%;
+	display: block;
+}
+.showTicket .list-img b{
+	display: block;
+	font-weight: bold;
+	width:100%;
+	text-align: center;
+	height:30px;
+	line-height: 30px;
+}
+.showTicket .list-img p span{
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+}
+.showTicket .list-img p span button{
+	background: red;
+	font-size: 16px;
+	font-weight: bold;
+	color:yellowGreen;
+	border:none;
+	cursor: pointer;	
+	opacity: 0.6;
+	border-radius: 10px;
+	height:30px;
+	line-height: 30px;
+	margin-left:20px;
+}
+.showTicket .list-img p span button:hover{
+	opacity: 0.8;
+}
+
+
+
+
+
+/*
+	底部共享
+	
+*/
+.footer-item{
+	width:100%;
+	height: 160px;
+	background: #e4e4e4;
+}
+.footer-item ul li{
+	float:left;
+	width:25%;
+	text-align: center;
+}
+.footer-item ul li a{
+	color:#000;
+}
+.footer-item p{
+	width:100%;
+	text-align: center;
+	color:#818181;
+}
+.footer-item p a{
+	color:#818181;
+	margin:0 20px 0 20px;
+}
+.footer-item p a:hover{
+	text-decoration: underline;
+}
+
+
+
+/*
+	list列表页
+*/
+.ListContent{
+	width:100%;
+	height:800px;
+	background: yellow;
+}
+.ListContent .list-left{
+	float: left;
+	width:25%;
+	background: pink;
+	height:800px;
+}
+.list-left h3{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	border:1px solid #000;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.list-left p{
+	width:144px;
+	height:24px;
+	line-height: 24px;
+	text-align: center;
+	border:1px #E6EAE3 solid;
+	margin:0 auto;
+}
+.list-left p a{
+	color:#333;
+}
+
+.list-left ul li{
+	width:100%;
+	height: 20px;
+	font-size: 14px;
+	color:green;
+	line-height: 20px;
+	display: block;
+	width:200px;/*对宽度的定义,根据情况修改*/
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin:0 auto;
+
+}
+
+
+
+
+
+.ListContent .list-right{
+	float: left;
+	width:75%;
+	background: yellowGreen;
+}
+.ListContent .list-right .searchBox{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.ListContent .list-right .local{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	text-align: left;
+	font-size: 14px;
+}
+.movieDetails .m-details{
+	height:150px;
+	border-top:1px dotted #333;
+	border-bottom:1px dotted #333;
+	padding-left: 10px;
+}
+.movieDetails .m-details .m-name{
+	height:30px;
+	line-height: 30px;
+	color:#0c9000;
+	text-align: left;
+	display: block;
+}
+.movieDetails .m-details p{
+	height:30px;
+	line-height: 30px;
+	color:#183778;
+	text-align: left;
+}
+.movieDetails .m-details div{
+	height:40px;
+	text-align: left;
+	line-height: 30px;
+}
+
+
+
+
+
+
+/*
+
+	detail css
+*/
+.detail-header{
+	height:286px;
+	width:100%;
+}
+.detail-header  .h-left{
+	float: left;
+	display: block;
+	height:300px;
+	width:23%;
+}
+
+.detail-header  .h-right{
+	float: left;
+	width:75%;
+	margin-left: 20px;
+}
+.de-title {
+	width:100%;
+	height:30px;
+}
+.detail-header  .h-right .de-title h3{
+	float:left;
+	font-size:20px;
+	font-weight: bold;	
+	margin-right:30px;
+}
+.de-title .inctr{
+	float:left;
+}
+.de-title .inctr i{
+	float:left;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.detail-header  .h-right .r-item {
+	width:100%;
+	position: relative;
+}
+.r-item .dec{
+	height:30px;
+	width:100%;
+	text-align: left;
+	line-height:30px;
+}
+.r-item .act{
+	width:100%;
+	/*height:150px;*/
+}
+.r-item .act li{
+	list-style: none;
+	height:30px;
+	line-height:30px;
+	text-align: left;
+}
+.r-item .goshow{
+	width:100%;
+	height:30px;
+	position: relative;
+
+}
+.r-item .goshow span{
+	display: block;
+	width:60px;
+	height:30px;
+	line-height: 30px;
+	float:left;
+	margin:0 10px 0 10px;
+}
+.r-item .goshow span button{
+	width:60px;
+	height:30px;
+	border-radius: 5px;
+	font-weight: bold;
+	border:none;
+	position: absolute;
+	right:60px;
+	top:0;
+	cursor: pointer;
+}
